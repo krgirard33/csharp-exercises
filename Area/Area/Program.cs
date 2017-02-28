@@ -12,8 +12,16 @@ namespace Area
         {
             Console.WriteLine("Enter a radius: ");
             double radius = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("The radius of a circle with a radius of " + radius + " is: " + Math.PI * (radius * radius));
-            Console.ReadLine();
+            if (radius < 0)
+                {
+                Console.WriteLine("Positive numbers only");
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("The radius of a circle with a radius of " + radius + " is: " + Math.PI * (radius * radius));
+                Console.ReadLine();
+            }
         }
     }
 }
