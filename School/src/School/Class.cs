@@ -5,10 +5,7 @@ using System.Threading.Tasks;
 
 namespace School
 {
-    public class Program
+    public class Class
     {
-        public static void Main(string[] args)
-        {
-        }
     }
 }

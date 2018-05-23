@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 
 namespace School
 {
-    public class Program
+    public class Grades
     {
-        public static void Main(string[] args)
-        {
-        }
+        private readonly int credits;
+        private readonly double pointScore;
+
     }
 }
